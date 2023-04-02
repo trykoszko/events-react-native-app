@@ -1,0 +1,25 @@
+{
+  "cli": {
+    "version": ">= 3.0.0"
+  },
+  "build": {
+    "preview": {
+      "distribution": "internal",
+      "autoIncrement": true
+    },
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "ios": {
+        "enterpriseProvisioning": "universal"
+      },
+      "autoIncrement": true
+    },
+    "production": {
+      "autoIncrement": true
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
